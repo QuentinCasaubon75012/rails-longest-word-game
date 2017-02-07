@@ -1,0 +1,54 @@
+// Place all the styles related to the words controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#grid {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #205162;
+}
+
+.container {
+  text-align: center;
+  padding-top: 15px;
+  width: 600px;
+  border: 4px solid #CCCCCC;
+  padding-bottom: 35px;
+  background-color: #CCD9E5;
+  margin-top: 100px;
+}
+
+.row {
+  margin-top: 15px;
+
+}
+
+.btn {
+  padding: 15px;
+  background-color: #596DA5;
+  border: 1px solid #205162;
+}
+
+.btn-success {
+  background-color: #E59D7A;
+}
+
+#question {
+  font-size: 18px;
+}
+
+li {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  background-color: #D9F1FF;
+}
+
+body {
+  background-color: #F3F3F3;
+}

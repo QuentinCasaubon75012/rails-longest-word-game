@@ -1,0 +1,31 @@
+<div class="ask">
+  <div class="container" id="asking">
+    <div class="row">
+      <form action="/score">
+        <div class="row">
+          <label for="question" class="title">Select the righ letters</label>
+          <div class="letters">
+          <ul id= "grid" class=" list-inline">
+            <% @grid.each do |letter| %>
+              <li><%= letter %></li>
+            <% end %>
+          </ul>
+          <div>
+        </div>
+
+        <div class="row">
+          <input type="text" id="question" name="result"
+          < placeholder="pick letters">
+          <input type="hidden" name="start_time" value="<%= Time.now %>">
+        </div>
+
+        <div class="row">
+          <input type="submit" class='btn btn-success' value="Go on!" >
+        </div>
+        <div class="row">
+          <%= link_to  'Randomize letters', game_path, { class: 'generator btn btn-primary' } %>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
